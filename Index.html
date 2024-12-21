@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dollar Cash - Earn by Completing Offers & Surveys</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#surveys">Surveys</a></li>
+        <li><a href="#referral">Referral Program</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Start Earning with Dollar Cash</h1>
+    <p>Complete surveys, tasks, and offers to earn cash today.</p>
+    <a href="signup.html" class="cta-button">Sign Up</a>
+  </section>
+
+  <section id="offers">
+    <h2>Complete Offers</h2>
+    <div class="offer-list">
+      <!-- Dynamically generate offer cards here -->
+      <div class="offer-card">
+        <h3>Offer Name</h3>
+        <p>Reward: $1</p>
+        <button>Complete Offer</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="surveys">
+    <h2>Take Surveys</h2>
+    <div class="survey-list">
+      <!-- Dynamically generate survey cards here -->
+      <div class="survey-card">
+        <h3>Survey Title</h3>
+        <p>Reward: $0.50</p>
+        <button>Start Survey</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="referral">
+    <h2>Refer & Earn</h2>
+    <p>Invite your friends and earn rewards for each successful referral.</p>
+    <button onclick="copyReferralLink()">Copy Referral Link</button>
+    <p id="referral-link">www.dollarcash.com?ref=yourusername</p>
+  </section>
+
+  <footer>
+    <p>© 2024 Dollar Cash. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
